@@ -9,8 +9,8 @@ async function initialize() {
   //   res.send("hello");
   // })
   app.use("/api", Router);
-  app.listen(7000, () => {
-    console.log("Running application on port 7000");
+  app.listen(8000, () => {
+    console.log("Running application on port 8000");
   });
 }
 
